@@ -32,7 +32,7 @@ nav p{
 
 nav ul{
     display: flex;
-    width: 50%;
+    width: 70%;
     justify-content: space-between;
 }
 
@@ -102,6 +102,9 @@ main{
 }
 
 /* design du texte colonne droite */
+#cdroite ul li a{
+    text-decoration: none;
+}
 #cdroite p{
     font-size: 20px;
     margin-left: 10%;
