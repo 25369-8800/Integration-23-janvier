@@ -38,6 +38,7 @@ nav ul{
 
 nav ul li {
     list-style: none;
+    margin-left: 5%;
 }
 
 nav ul li a {
@@ -186,7 +187,7 @@ margin-left:10%;
 /* mise en place des 3 colonnes */
 #ensembleitem{
     display: flex;
-    width: 70%;
+    width: 60%;
     justify-content: space-around;
     margin-left: 19%;
     margin-top: 2%;
@@ -198,4 +199,6 @@ margin-left:10%;
 .colonne{
     font-size: 30px;
 }
+
+
 
