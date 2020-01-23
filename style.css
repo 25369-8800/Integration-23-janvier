@@ -16,7 +16,11 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	vertical-align: baseline;
+}
+
+/*choix de typo*/
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 /* mise en place de la navigation */
 nav{
@@ -28,6 +32,7 @@ nav{
 }
 nav p{
     display: flex;
+    color: purple;
 }
 
 nav ul{
@@ -47,13 +52,20 @@ nav ul li a {
 }
 
 /* réalisation du active sur le lien */
-nav ul li :active{
-    color: black;
+
+#active{
+    color: purple;
+}
+
+nav ul li  :hover{
+    color: purple;
+    text-decoration: underline;
 }
 
 /* mise en place de l'image d'en tête */
 article img {
     width: 100%;
+    box-shadow: 5px 5px 20px purple;
 }
 
 article{
@@ -78,6 +90,7 @@ main{
 /* design du texte colonne gauche */
 #cgauche h1{
     margin-left: 10%;
+    font-size: 50px;
 }
 
 #cgauche h2{
@@ -91,10 +104,11 @@ main{
 }
 
 .linegreen u{
-    text-decoration-color: blue;
+    text-decoration-color: purple;
 }
 
 /* design de la colonne de droite*/
+
 #cdroite{
     width: 30%;
     margin-right: 15%;
@@ -119,6 +133,8 @@ main{
 #cdroite img{
     width: 80%;
     margin-left: 10%;
+    box-shadow: 5px 5px 20px purple;
+
 }
 
 /* taille du hr */
@@ -138,6 +154,11 @@ margin-left: 10%;
     list-style: none;
 }
 
+/*hover lien*/
+#cdroite ul li a:hover{
+    color: purple;
+}
+
 /* design des icônes sociaux */
 ul i{
     margin-right: 2%;
@@ -149,6 +170,7 @@ ul i{
 #cdroite form{
     margin-top: 5%;
     width: 100%;
+    color: purple;
 }
 
 #cdroite form input{
@@ -179,7 +201,7 @@ margin-left:10%;
     margin-top: 5%;
 }
 #item1 h2{
-    font-size: 25px;
+    font-size: 30px;
 }
 
 #item1 p{
@@ -203,5 +225,65 @@ margin-left:10%;
     font-size: 30px;
 }
 
+.colonne:hover{
+    color: purple;
+}
+
+/* Design du footer */
+footer{
+    background-color: black;
+    color: white;
+}
+
+/*1ere partie footer*/
+#footer1{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    margin: auto;
+    padding: 20px;
+}
+
+#footer1 h4{
+    margin-top: 2.5%;
+}
+
+#footer1 form{
+    width: 30%;
+    display: flex;
+}
+
+#input1{
+    width: 100%;
+    margin-top: 4%;
+}
+
+#input2{
+    width: 100%;
+}
+
+#footer1 form input{
+    margin-right: 10%;
+    width: 85%;
+    height: 3vh;
+}
+
+#buttonfooter{
+    background-color: blueviolet;
+    width: 20%;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    height: 4vh;
+    margin-top: 2.5%;
+}
+
+.linepurple u{
+    text-decoration-color: purple;
+}
+
+.linepurple u:hover{
+    color: red;
+}
 
 
