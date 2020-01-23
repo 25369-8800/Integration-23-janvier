@@ -71,12 +71,22 @@ main{
 /* design de la colonne de gauche*/
 #cgauche{
     width: 30%;
-    margin-left: 15%;
+    margin-left: 15% ;
 }
 
 /* design du texte colonne gauche */
+#cgauche h1{
+    margin-left: 10%;
+}
+
+#cgauche h2{
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
 #cgauche p{
     font-size: 20px;
+    margin-left: 15%;
 }
 
 .linegreen u{
@@ -96,8 +106,9 @@ main{
     margin-left: 10%;
 }
 
-#cdroite h3{
+#cdroite h2{
     margin-left: 10%;
+    margin-bottom: 5%;
 }
 
 /* taille de l'image cdroite */
@@ -155,5 +166,36 @@ margin-left:10%;
     color: white;
     text-transform: uppercase;
     margin-top: 5%;
+}
+
+/* mise en place avant dernière section */
+/* première case */
+#item1 {
+    margin-left: 15%;
+    margin-top: 5%;
+}
+#item1 h2{
+    font-size: 25px;
+}
+
+#item1 p{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+/* mise en place des 3 colonnes */
+#ensembleitem{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    margin-left: 19%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+/* mise en place des 3 colonnes */
+
+.colonne{
+    font-size: 30px;
 }
 
