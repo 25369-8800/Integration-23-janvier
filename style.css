@@ -61,15 +61,71 @@ article{
     margin-top: 5%;
 }
 /* fin mise en place en-tête */
-/*colonne de gauche*/
+
+/*mise en flex du main */
 main{
-    width: 40%;
+    display: flex;
+    justify-content: space-between;
 }
 
-main p{
+/* design de la colonne de gauche*/
+#cgauche{
+    width: 30%;
+    margin-left: 15%;
+}
+
+/* design du texte colonne gauche */
+#cgauche p{
     font-size: 20px;
 }
 
 .linegreen u{
     text-decoration-color: blue;
+}
+
+/* design de la colonne de droite*/
+#cdroite{
+    width: 30%;
+    margin-right: 15%;
+    margin-top: -50px;
+}
+
+/* design du texte colonne droite */
+#cdroite p{
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+#cdroite h3{
+    margin-left: 10%;
+}
+
+/* taille de l'image cdroite */
+#cdroite img{
+    width: 80%;
+    margin-left: 10%;
+}
+
+/* taille du hr */
+#hrdroite{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 50%;
+    margin-left: 10%;
+}
+
+/* design de la liste */
+#cdroite ul{
+margin-left: 5%;
+}
+
+#cdroite ul li{
+    list-style: none;
+}
+
+/* design des icônes sociaux */
+ul i{
+    margin-right: 2%;
+    transform: scale(1.3);
+    margin-top: 2%;
 }
